@@ -1,1 +1,0 @@
-from .training_finetune import SWINSightTrain

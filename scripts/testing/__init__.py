@@ -1,1 +1,0 @@
-from .SWINSight_test import SWINSightTest
