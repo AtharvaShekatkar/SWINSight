@@ -2,7 +2,7 @@
 A state of the art machine learning model that utilizes SWIN Transformer backbone for detection of artificially generated images.
 
 # Overview
-![alt text](./Architecture%20Diagram.jpg)
+![alt text](./assets/Architecture%20Diagram.jpg)
 SWINSight takes in an image and outputs a prediction of whether the image is authentic or has been artificially generated. SWINSight also utilizes GradCAM for visualizing the areas of the image that the model takes into consideration while making its prediction.
 
 # Getting Started
@@ -23,8 +23,8 @@ python train.py
 
 # GradCAM
 <div style="display: flex;">
-  <img src="./Gradcamfake.jpg" alt="Image 1" style="width: calc(50% - 5px); padding-right: 10px;">
-  <img src="./Gradcamreal.jpg" alt="Image 2" style="width: calc(50% - 5px); padding-left: 10px;">
+  <img src="./assets/Gradcamfake.jpg" alt="Image 1" style="width: calc(50% - 5px); padding-right: 10px;">
+  <img src="./assets/Gradcamreal.jpg" alt="Image 2" style="width: calc(50% - 5px); padding-left: 10px;">
 </div>
 </br>
 
