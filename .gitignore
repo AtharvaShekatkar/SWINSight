@@ -6,6 +6,14 @@ __pycache__/
 # C extensions
 *.so
 
+SWINSight/inputs/*
+!SWINSight/inputs/.keep
+
+SWINSight/outputs/*
+!SWINSight/outputs/.keep
+
+SWINSight/model_history/*
+!SWINSight/model_history/.keep
 # Distribution / packaging
 .Python
 build/
